@@ -1,0 +1,661 @@
+{
+	"variables": [],
+	"info": {
+		"name": "Rest API Practice",
+		"_postman_id": "cb370421-616e-cf81-96cf-827ff8ec7e37",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://127.0.0.1:8000/api/class",
+			"request": {
+				"url": "http://127.0.0.1:8000/api/class",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": "gets all class data"
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/api/class",
+			"request": {
+				"url": "http://127.0.0.1:8000/api/class",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "class_name",
+							"value": "D",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": "Class Create"
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/api/class/4",
+			"request": {
+				"url": "http://127.0.0.1:8000/api/class/4",
+				"method": "DELETE",
+				"header": [],
+				"body": {},
+				"description": "class Delete"
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/api/class/2",
+			"request": {
+				"url": "http://127.0.0.1:8000/api/class/2",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": "get class by id"
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/api/class/2",
+			"request": {
+				"url": "http://127.0.0.1:8000/api/class/2",
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "class_name",
+							"value": "Bee",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": "update class"
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/api/section",
+			"request": {
+				"url": "http://127.0.0.1:8000/api/section",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": "get all section information"
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/api/subject",
+			"request": {
+				"url": "http://127.0.0.1:8000/api/subject",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": "get all subject information"
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/api/student",
+			"request": {
+				"url": "http://127.0.0.1:8000/api/student",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": "get all student data"
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/api/section/1",
+			"request": {
+				"url": "http://127.0.0.1:8000/api/section/1",
+				"method": "DELETE",
+				"header": [],
+				"body": {},
+				"description": "section delete using id"
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/api/subject/1",
+			"request": {
+				"url": "http://127.0.0.1:8000/api/subject/1",
+				"method": "DELETE",
+				"header": [],
+				"body": {},
+				"description": "subject delete using id"
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/api/student/1",
+			"request": {
+				"url": "http://127.0.0.1:8000/api/student/1",
+				"method": "DELETE",
+				"header": [],
+				"body": {},
+				"description": "student delete using id"
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/api/section/2",
+			"request": {
+				"url": "http://127.0.0.1:8000/api/section/2",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": "get value using id"
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/api/subject/2",
+			"request": {
+				"url": "http://127.0.0.1:8000/api/subject/2",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": "get value using id"
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/api/student/2",
+			"request": {
+				"url": "http://127.0.0.1:8000/api/student/3",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": "get value using id"
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/api/section",
+			"request": {
+				"url": "http://127.0.0.1:8000/api/section",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "class_id",
+							"value": "1",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "section_name",
+							"value": "Section3",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": "Section create"
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/api/section",
+			"request": {
+				"url": "http://127.0.0.1:8000/api/section/3",
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "class_id",
+							"value": "1",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "section_name",
+							"value": "Section33",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": "Section create"
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/api/subject",
+			"request": {
+				"url": "http://127.0.0.1:8000/api/subject",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "class_id",
+							"value": "1",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "subject_name",
+							"value": "Sub3",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "subject_code",
+							"value": "s3",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": "subject create"
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/api/subject",
+			"request": {
+				"url": "http://127.0.0.1:8000/api/subject/3",
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "class_id",
+							"value": "1",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "subject_name",
+							"value": "Subject3",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "subject_code",
+							"value": "s3",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": "subject create"
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/api/student",
+			"request": {
+				"url": "http://127.0.0.1:8000/api/student",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "class_id",
+							"value": "1",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "section_id",
+							"value": "1",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "Ahm",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "phone",
+							"value": "015",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "blabla@gmail.com",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "1234",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "address",
+							"value": "address3",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "gender",
+							"value": "m",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": "student create"
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/api/student",
+			"request": {
+				"url": "http://127.0.0.1:8000/api/student/3",
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "class_id",
+							"value": "1",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "section_id",
+							"value": "1",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "Ahmed",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "phone",
+							"value": "015",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "blabla@gmail.com",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "1234",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "address",
+							"value": "address3",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "gender",
+							"value": "m",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": "student create"
+			},
+			"response": []
+		},
+		{
+			"name": "jwt_login",
+			"request": {
+				"url": "http://127.0.0.1:8000/api/auth/login",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "email",
+							"value": "admin@gmail.com",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "aA1!12345",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": "JWT LOGIN"
+			},
+			"response": []
+		},
+		{
+			"name": "User Info using access token",
+			"request": {
+				"url": "http://127.0.0.1:8000/api/auth/me",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC8xMjcuMC4wLjE6ODAwMFwvYXBpXC9hdXRoXC9sb2dpbiIsImlhdCI6MTYxODc3NTQzNiwiZXhwIjoxNjE4Nzc5MDM2LCJuYmYiOjE2MTg3NzU0MzYsImp0aSI6Imh5eTNMa0I0aVBwSEhBdDUiLCJzdWIiOjEsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.oCRUQjig95tYZFAkhQVlUFMRHiiUc6uwdS0b5CxkE2I",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": "logged in User Info"
+			},
+			"response": []
+		},
+		{
+			"name": "logout with access token",
+			"request": {
+				"url": "http://127.0.0.1:8000/api/auth/logout",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC8xMjcuMC4wLjE6ODAwMFwvYXBpXC9hdXRoXC9sb2dpbiIsImlhdCI6MTYxODc3NTQzNiwiZXhwIjoxNjE4Nzc5MDM2LCJuYmYiOjE2MTg3NzU0MzYsImp0aSI6Imh5eTNMa0I0aVBwSEhBdDUiLCJzdWIiOjEsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.oCRUQjig95tYZFAkhQVlUFMRHiiUc6uwdS0b5CxkE2I",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": "logged in User Info"
+			},
+			"response": []
+		},
+		{
+			"name": "register user",
+			"request": {
+				"url": "http://127.0.0.1:8000/api/auth/register",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					},
+					{
+						"key": "",
+						"value": "",
+						"description": "",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "user1",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "user1@gmail.com",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "12345678",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": "register user"
+			},
+			"response": []
+		}
+	]
+}
